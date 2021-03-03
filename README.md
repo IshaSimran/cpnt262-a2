@@ -2,9 +2,9 @@
 
 By Isha Simran
 
-- [GitHub Repo]()
+- [GitHub Repo](https://github.com/IshaSimran/cpnt262-a2)
 
-- [GH Pages Site]()
+- [GH Pages Site](https://ishasimran.github.io/cpnt262-a2/)
 
 For this assignment I created a dynamic image gallery of different types of flowers. You can click on each image to take you the wikipedia page for flowers.
 
