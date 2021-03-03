@@ -21,12 +21,9 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 400;
   font-family: "Karla", sans-serif;
   font-variant: small-caps;
-
-  text-align: center;
-  padding-bottom: 0.5rem;
 }
 
 /***** Image Gallery *****/
@@ -39,7 +36,7 @@ h2 {
 }
 
 figure {
-  margin: 2rem;
+  margin: 3rem;
   position: relative;
 
   transition-property: width;
@@ -78,7 +75,7 @@ figure figcaption {
   font-family: "Karla", sans-serif;
   font-weight: 300;
   font-variant: small-caps;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 
   text-align: center;
   background-color: black;
