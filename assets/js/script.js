@@ -148,39 +148,39 @@ const imgFlower = [
   }
 ];
 
-/***** Loop that displays the gallery *****/
+// Loop that will display the gallery 
 
 const object = document.querySelector('.object');
 
 for (let i = 0; i < imgFlower.length; i++) {
 
-/***** Figure that holds all of the object content *****/
+// Figure that holds all of the object content
 
   const figure = document.createElement('figure');  
   figure.style.maxWidth = `${imgFlower[i].width}px`;
   object.appendChild(figure);  
 
-/***** Image Title *****/
+// Image Titles
 
   const title = document.createElement('h2');
   title.innerText = `${imgFlower[i].title}`;
   figure.appendChild(title);
 
-/*****  Wikipdia link *****/
+// Wikipdia link
   
   const wikiLink = document.createElement('a');
   wikiLink.href = `${imgFlower[i].linkURL}`;
   wikiLink.target = '_blank';
   figure.appendChild(wikiLink);
 
-/***** Image linked and accessibiility added *****/
+// Image linked
 
   const figLinkImg = document.createElement('img');
   figLinkImg.src = `${imgFlower[i].pathURL}`;
   figLinkImg.alt = `${imgFlower[i].description}`;
   wikiLink.appendChild(figLinkImg);
 
-/***** Image credit added *****/
+// Image credit added
 
   const figCap = document.createElement('figcaption');
   figure.appendChild(figCap);

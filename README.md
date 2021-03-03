@@ -6,7 +6,7 @@ By Isha Simran
 
 - [GH Pages Site](https://ishasimran.github.io/cpnt262-a2/)
 
-For this assignment I created a dynamic image gallery of different types of flowers. You can click on each image to take you the wikipedia page for flowers.
+For this assignment I created a dynamic image gallery of different types of flowers. You can hover over each image for a small transition effect, and can click on each image to take you the wikipedia page for flowers.
 
 ## Attributions
 
